@@ -6,7 +6,6 @@
     </x-slot:header>
 
     <x-slot:content>
-
        @if(session('success'))
             <div class="flex justify-center mb-6">
                 <div class="bg-yellow-100 border border-yellow-400 text-yellow-800 px-6 py-4 rounded-lg shadow-md max-w-lg w-full flex items-center justify-center">
@@ -18,8 +17,6 @@
                 </div>
             </div>
         @endif
-
-
         <a href="{{ route('posts.create') }}"
            class="bg-blue-600 text-white px-3 py-2 rounded hover:bg-blue-700 transition">
             + Add Post
